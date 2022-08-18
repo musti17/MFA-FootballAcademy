@@ -1,0 +1,66 @@
+extends base.pug
+
+
+
+block scripts
+//-   script(src='/static/index.js');
+
+block style 
+    style 
+        include ../static/style.css
+
+block content 
+    section#introSection 
+        div Welcome to Mustafa's Football Academy 
+        div.small Eat Sleep Football Repeat
+
+    section#missionSection 
+        h2 Our Mission
+        div.card
+            | Develop young footballers
+            div.card-box
+                div.card-img
+                    img(src="../static/bg1.jpg")
+                    
+        div.card
+            | Expert Coaching
+            div.card-box
+                div.card-img
+                    img(src="../static/bg2.jpg")
+               
+        div.card
+            | Non-profit Soccer Academy
+            div.card-box
+                div.card-img
+                    img(src="../static/bg6.jpg")
+                
+  
+    section#sponsorsSection 
+        h2 OUR FOOTBALL & EDUCATION PARTNERS
+        div.sponsors
+            img(src="../static/logo1.png", alt="",class="spImg")
+            img(src="../static/logo2.png", alt="",class="spImg")
+            img(src="../static/logo3.png", alt="",class="spImg")
+            img(src="../static/logo4.png", alt="",class="spImg")
+                     
+    section#beforefooter 
+        div#footerlogo.fitems
+            div#leftText
+                |MFA        
+            img(src="../static/footerlogo.png", alt="")
+            div#beforefootertext
+                |International 
+                br 
+                |Football Academy
+        div.fitems#special
+            |Grace Dieu Manor Park, Thringstone, Leicestershire LE67 5UG    
+        div.fitems
+            |Office +44 1933 420000
+        div#email.fitems
+            |info@mustafafootball.academy
+
+    footer#miniFooter
+        div COPYRIGHT © 2022 MFA INTERNATIONAL FOOTBALL ACADEMY
+        div TERMS OF USE 
+        div PRIVACY & COOKIES 
+        div MAKE A PAYMENT                     

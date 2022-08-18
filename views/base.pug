@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    title Mustafa Football Academy
+    block scripts
+    block style 
+
+  body
+    nav#navbar 
+        div#medium
+            |MFA    
+        img(src="../static/Navlogo.png", alt="")
+        div#navtext
+            |International 
+            br 
+            |Football Academy
+        ul 
+            li #[a(href="/") Home ]
+            li #[a(href="/") About Us]
+            li #[a(href="/") Football]
+            li #[a(href="/") Academy Life]
+            li #[a(href="/contact") How to Join] 
+
+    block content
+    footer#miniFooter
+        div COPYRIGHT © 2022 MFA INTERNATIONAL FOOTBALL ACADEMY
+        div TERMS OF USE 
+        div PRIVACY & COOKIES 
+        div MAKE A PAYMENT 
+//indents are extremely important//

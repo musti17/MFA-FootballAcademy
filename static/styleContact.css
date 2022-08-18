@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Mouse+Memoirs&family=Poppins:wght@200&family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 78vh;
+}
+.inputForm{
+    display: block;
+    padding: 5px;
+    margin: 6px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 14px;
+    width: 45%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+    margin: 9px;
+    padding: 8px 6px;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 8px;
+}
+
